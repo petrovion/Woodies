@@ -3,12 +3,13 @@ body {
 }
 #navbar {
   display: flex;
-  width: 1000px;
+  width: 1400px;
   margin: 0 auto;
   margin-top: 29px;
   margin-bottom: 100px;
 }
 #navbar ul {
+  margin-left: 200px;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -61,4 +62,29 @@ body {
   background: #f9bdbd;
   z-index: -1;
   border-bottom-left-radius: 100px;
+}
+#intro {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+#intro div span {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3e3f43;
+}
+#intro div h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  color: #313235;
+}
+#intro div button {
+  background: #daa520;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 14px 24px;
 }
