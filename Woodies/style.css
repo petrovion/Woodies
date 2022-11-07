@@ -126,13 +126,9 @@ body {
 }
 #about article span {
   font-size: 36px;
-  width: 448px;
-  height: 98px;
 }
 #about article p {
   font-size: 24px;
-  width: 448px;
-  height: 66px;
 }
 .big-gray-flower2 {
   margin-top: 100px;
@@ -151,6 +147,19 @@ body {
   border-top-right-radius: 100px;
   z-index: -1;
 }
-.for-you {
+#for-you {
+  width: 1100px;
+  margin: 0 auto;
+}
+#for-you span {
+  font-size: 36px;
+}
+#for-you p {
+  font-size: 24px;
+}
+.content {
+  margin-top: 70px;
   display: grid;
+  grid-template-columns: 850px 500px;
+  align-items: center;
 }
