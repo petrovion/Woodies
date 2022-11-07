@@ -27,12 +27,6 @@ body {
 #navbar ul li .active a {
   color: #daa520;
 }
-#navbar ul li.button a {
-  text-transform: uppercase;
-  border: 1px solid rgba(62, 63, 67, 1);
-  border-radius: 8px;
-  padding: 9px 36px;
-}
 #navbar button {
   border: 1px solid #3e3f43;
   border-radius: 8px;
@@ -106,7 +100,6 @@ body {
 #about hr {
   background: black;
   width: 43%;
-  margin: auto;
 }
 #about header div {
   margin-left: 5px;
@@ -162,4 +155,59 @@ body {
   display: grid;
   grid-template-columns: 850px 500px;
   align-items: center;
+}
+#how-to-custom {
+  width: 1100px;
+  margin: 0 auto;
+}
+#how-to-custom header {
+  display: flex;
+  align-items: center;
+}
+#how-to-custom hr {
+  background: black;
+  width: 20%;
+}
+#how-to-custom header div {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3e3f43;
+}
+#how-to-custom header h2 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: rgba(34, 34, 34, 0.1);
+}
+.example {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fig-name {
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.figure {
+  align-self: center;
+  justify-self: center;
+}
+.fig-number {
+  color: rgba(249, 189, 189, 0.25);
+  font-size: 96px;
+  margin-top: -170px;
+  margin-left: -45px;
+}
+#how-to-custom button {
+  color: white;
+  background: #daa520;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 24px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
 }
