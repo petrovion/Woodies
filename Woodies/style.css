@@ -308,7 +308,6 @@ body {
   align-items: center;
 }
 #what-they-say hr {
-  background: black;
   width: 35%;
 }
 #what-they-say header div {
@@ -411,6 +410,7 @@ body {
   grid-template-columns: 493px 448px;
   gap: 11%;
   width: 1100px;
+  height: 200px;
   margin: 0 auto;
 }
 #subscription span {
@@ -437,4 +437,51 @@ body {
 .subscribe {
   margin-top: 3%;
   margin-left: -30px;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: 192px 65px 85px 78px 85px;
+  grid-template-rows: 40px 19px 19px 19px;
+  grid-column-gap: 7%;
+  grid-row-gap: 15%;
+}
+footer {
+  width: 1100px;
+  margin: 0 auto;
+}
+hr {
+  width: 1100px;
+}
+.footer-info p {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+}
+.footer-info div {
+  color: #8d8d8d;
+  font-size: 14px;
+}
+.footer-info a {
+  text-decoration: none;
+  color: #8d8d8d;
+  font-size: 14px;
+}
+.logo-footer {
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+.logo-footer figcaption {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.25em;
+  color: #3e3f43;
+  margin-left: 5px;
+}
+.copyright {
+  height: 30px;
+  margin-top: 100px;
+  text-align: center;
 }
