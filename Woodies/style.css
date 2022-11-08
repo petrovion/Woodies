@@ -325,6 +325,7 @@ body {
   color: rgba(34, 34, 34, 0.1);
 }
 .testimony {
+  margin-bottom: 120px;
   margin-left: 100px;
   display: grid;
   grid-template-columns: repeat(3, 280px);
@@ -373,8 +374,6 @@ body {
 .rewiew-nav li {
   display: flex;
 }
-.rewiew-nav a {
-}
 .prev a {
   color: #c4c4c4;
   font-size: 14px;
@@ -392,7 +391,7 @@ body {
   justify-content: space-around;
   width: 184px;
   height: 8px;
-  margin-left: 80%;
+  margin-left: 275%;
   margin-top: -50px;
 }
 .rec-y {
@@ -406,4 +405,36 @@ body {
   height: 8px;
   background: #e5e5e5;
   border-radius: 8px;
+}
+#subscription {
+  display: grid;
+  grid-template-columns: 493px 448px;
+  gap: 11%;
+  width: 1100px;
+  margin: 0 auto;
+}
+#subscription span {
+  font-size: 18px;
+}
+#subscription input {
+  border: 1px #daa520 solid;
+  border-radius: 2px;
+  color: #afafaf;
+  font-size: 16px;
+  width: 300px;
+  padding: 8px 24px;
+}
+#subscription button {
+  background: #daa520;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  color: white;
+  padding: 9px 24px;
+  margin-left: -10px;
+  font-size: 16px;
+}
+.subscribe {
+  margin-top: 3%;
+  margin-left: -30px;
 }
